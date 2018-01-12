@@ -1,0 +1,30 @@
+}
+
+body {
+	/*/ Sem ele o vídeo fica colado no "teto" quando desliza para baixo /*/
+    line-height: 2;
+    color: #222222;
+    background: #fff;
+}
+.container {
+	/*/ Muda a cor de transparente para Cinza /*/
+    max-width: 97%;
+    margin: ;
+    position: relative;
+}
+
+
+.kbrmusic-nav {
+	/*/ Muda a cor de transparente para Cinza -- e sem este e o de cima juntos, faz-se o efeito da próxima função .kbrmusic-nav.fixed { abaixo -- /*/
+    background-color: #222;
+    list-style: none;
+    margin: 0 0 0 20px;
+    padding: 15px 20px;
+    font-size: 0.97em;
+}
+    .kbrmusic-nav.fixed {
+		/*/ Sem ele o vídeo não desce, ficando apenas um quadrado estático /*/
+        position: fixed;
+        top: 49px;
+        width: 220px;
+    }
